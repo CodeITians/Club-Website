@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="assets/images/favicon.jpeg">
+    <title>CodeIT | FAQs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+  
+    <style>
+       
+            body{
+                font-family: 'Work Sans', sans-serif;
+            }
+            .faq-heading{
+                border-bottom: #777;
+                padding: 20px 60px;
+            }
+            .faq-container{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            }
+            .hr-line{
+            width: 60%;
+            margin: auto;
+            }
+            /* Style the buttons that are used to open and close the faq-page body */
+            .faq-page {
+                /* background-color: #eee; */
+                color: #444;
+                cursor: pointer;
+                padding: 30px 20px;
+                width: 60%;
+                border: none;
+                outline: none;
+                transition: 0.4s;
+                margin: auto;
+
+            }
+            .faq-body{
+                margin: auto;
+                /* text-align: center; */
+            width: 50%; 
+            padding: auto;
+            
+            }
+
+
+            /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+            .active,
+            .faq-page:hover {
+                background-color: #F9F9F9;
+            }
+
+            /* Style the faq-page panel. Note: hidden by default */
+            .faq-body {
+                padding: 0 18px;
+                background-color: white;
+                display: none;
+                overflow: hidden;
+            }
+
+            .faq-page:after {
+                content: '\02795';
+                /* Unicode character for "plus" sign (+) */
+                font-size: 13px;
+                color: #777;
+                float: right;
+                margin-left: 5px;
+            }
+
+            .active:after {
+                content: "\2796";
+                /* Unicode character for "minus" sign (-) */
+            }
+            footer p{
+                text-align: center;
+            }
+    </style>
+
+</head>
+
+<body>
+
+    <main>
+
+        <h1 class="faq-heading">FAQ'S</h1>
+        <section class="faq-container">
+            <div class="faq-one">
+
+                <!-- faq question -->
+                <h1 class="faq-page">Are there any membership fees?</h1>
+
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>No, CodeIT club membership is free for all MCKVIE students.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+
+            <div class="faq-two">
+
+                <!-- faq question -->
+                <h1 class="faq-page">What are the monthly online events?</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <p>We host various online coding events each month to engage and challenge club members.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+
+
+            <div class="faq-three">
+
+                <!-- faq question -->
+                <h1 class="faq-page">How can I participate in the events?</h1>
+
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>Simply stay connected with the club for event announcements and follow the registration process.</p>
+                </div>
+            </div>
+
+            <hr class="hr-line">
+
+            <div class="faq-four">
+
+                <!-- faq question -->
+                <h1 class="faq-page">Can I showcase my coding projects?</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <p>Absolutely! We encourage members to share and discuss their coding projects with the community.</p>
+                </div>
+            </div>
+
+            <hr class="hr-line">
+
+            <div class="faq-five">
+
+                <!-- faq question -->
+                <h1 class="faq-page">How can I ask a coding question?</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <p>You can post your coding doubts in the club's online forum or discussion platform.</p>
+                </div>
+            </div>
+
+            <hr class="hr-line">
+
+            <div class="faq-six">
+
+                <!-- faq question -->
+                <h1 class="faq-page">Is there a minimum skill level required?</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <p>No, we welcome coders of all skill levels, from beginners to experts.</p>
+                </div>
+            </div>
+
+            <hr class="hr-line">
+
+            <div class="faq-seven">
+
+                <!-- faq question -->
+                <h1 class="faq-page">Are there any rewards for participating in events?</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <p>Yes, we offer certificates of participation and recognition for outstanding performances.</p>
+                </div>
+            </div>
+
+            <hr class="hr-line">
+
+            <div class="faq-eight">
+
+                <!-- faq question -->
+                <h1 class="faq-page">How can I stay updated about club activities?</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <p>Regularly check the club's online platform and keep an eye out for email updates.</p>
+                </div>
+            </div>
+
+            <hr class="hr-line">
+
+            <div class="faq-nine">
+
+                <!-- faq question -->
+                <h1 class="faq-page">Can I suggest topics for upcoming events?</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <p>Absolutely! We value member input and consider suggestions for event topics.</p>
+                </div>
+            </div>
+
+            <hr class="hr-line">
+
+            <div class="faq-ten">
+
+                <!-- faq question -->
+                <h1 class="faq-page">Are there mentoring sessions for beginners?</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <p>Yes, we conduct mentoring sessions to help beginners grasp coding concepts.</p>
+                </div>
+            </div>
+
+            <hr class="hr-line">
+
+            <div class="faq-eleven">
+
+                <!-- faq question -->
+                <h1 class="faq-page">Should I need to be a member to participate in events?</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <p>No, you can participate without being a member.Share the club's details and platform links with your friends to encourage them to join.</p>
+                </div>
+            </div>
+
+            <hr class="hr-line">
+
+            <div class="faq-twelve">
+
+                <!-- faq question -->
+                <h1 class="faq-page">How will we get the certificates of participation of the events?</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <p>In general, we will publish certificates in a Google drive link which will be shared to that event specified created WhatsApp group. That link will be valid for 1 month. </p>
+                </div>
+            </div>
+
+            <hr class="hr-line">
+
+            <div class="faq-thirteen">
+
+                <!-- faq question -->
+                <h1 class="faq-page">How can I be a member of this club?</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <p>It's very easy. Just sign up on our website. And done!</p>
+                </div>
+            </div>
+
+            <hr class="hr-line">
+
+            <div class="faq-fourteen">
+
+                <!-- faq question -->
+                <h1 class="faq-page">Can any stream student be a Core Member of this club?</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <p>No. As this club is specially dedicated to IT Department students, Core members will be selected from IT Department students only.</p>
+                </div>
+            </div>
+
+            <hr class="hr-line">
+
+            <div class="faq-fifteen">
+
+                <!-- faq question -->
+                <h1 class="faq-page">How can I be a core member of this club?</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <p>Everyone will get the opportunity to be a Core Member of this club in their Third Year. But for that, you just have to be a general member of this club previously.</p>
+                </div>
+            </div>
+
+            <hr class="hr-line">
+
+            <div class="faq-sixteen">
+
+                <!-- faq question -->
+                <h1 class="faq-page">Where will I contact if I have a problem or doubt that is not available in FAQs list?</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <p>Just post  problem in the "Contact Us" section of the Community page. Our Core members will reach you out.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+
+        <p>Copyright © <script>
+            var CurrentYear = new Date().getFullYear()
+            document.write(CurrentYear)
+          </script> <a href="index.html" title="CodeIT">CodeIT</a> Club. All Rights Reserved. 
+            <br>Club of IT Dept. of <a href="https://www.mckvie.edu.in/" target="_parent" title="MCKVIE">MCKVIE</a></p>
+    </footer>
+    
+    <script>
+                    var faq = document.getElementsByClassName("faq-page");
+            var i;
+
+            for (i = 0; i < faq.length; i++) {
+                faq[i].addEventListener("click", function () {
+                    /* Toggle between adding and removing the "active" class,
+                    to highlight the button that controls the panel */
+                    this.classList.toggle("active");
+
+                    /* Toggle between hiding and showing the active panel */
+                    var body = this.nextElementSibling;
+                    if (body.style.display === "block") {
+                        body.style.display = "none";
+                    } else {
+                        body.style.display = "block";
+                    }
+                });
+            }
+    </script>
+</body>
+
+
+</html>
